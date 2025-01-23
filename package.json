@@ -1,0 +1,15 @@
+{
+  "name": "one-page-resume",
+  "version": "1.0.0",
+  "main": "data.js",
+  "scripts": {
+    "dev": "npm run scss & npm run auto-reload && fg",
+    "scss": "sass --watch style.scss style.css",
+    "auto-reload": "browser-sync start --server --dierctory --files \"**/*\""
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "sass": "^1.77.2"
+  }
+}
