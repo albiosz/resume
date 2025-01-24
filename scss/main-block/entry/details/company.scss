@@ -1,10 +1,15 @@
-.company {
+.space-between {
   display: flex;
   justify-content: space-between;
 }
 
-.company .place {
-  display: inline-block;
+.company {
+  padding-top: 2pt;
+  color: #444;
+
+  .place {
+    display: inline-block;
+  }
 }
 
 .details .location::before {
@@ -12,7 +17,7 @@
   position: relative;
   right: 3pt;
   top: 0.25pt;
-  font-family: FontAwesome;
+  font-family: FontAwesome, sans-serif;
   font-weight: normal;
   font-style: normal;
   text-decoration: inherit;

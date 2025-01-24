@@ -26,14 +26,14 @@
     </h2>
     {{#experience}}
     <section class="entry">
-      <div class="date">
-        <span>{{ end }}</span><span>{{ start }}</span>
-      </div>
       <div class="timeline"></div>
       <div class="details">
         <header>
-          <h3>{{ position }}</h3>
-          <div class="company">
+          <div class="space-between">
+            <h3>{{ position }}</h3>
+            <span class="time-period"><i class="fa-regular fa-calendar"></i> {{ start }} - {{ end }}</span>
+          </div>
+          <div class="space-between company">
             <span class="place">{{ company }}</span>
             <span class="location">{{ location }}</span>
           </div>
@@ -53,13 +53,13 @@
     </h2>
     {{#education}}
     <section class="entry">
-      <div class="date">
-        <span>{{ end }}</span><span>{{ start }}</span>
-      </div>
       <div class="timeline"></div>
       <div class="details">
         <header>
-          <h3>{{ career }}</h3>
+          <div class="space-between">
+            <h3>{{ career }}</h3>
+            <span class="time-period"><i class="fa-regular fa-calendar"></i> {{ start }} - {{ end }}</span>
+          </div>
           <span class="place">{{ university }}</span>
         </header>
         <div class="description">
