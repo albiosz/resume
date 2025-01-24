@@ -53,7 +53,7 @@ li {
 main {
   width: var(--main-width);
   padding: 0.25in 0.25in 0 0.3in;
-  font-size: 8.5pt;
+  font-size: 9pt;
 }
 
 main ul {
@@ -122,6 +122,7 @@ aside h1 {
   font-weight: 400;
   font-size: 11pt;
   text-transform: uppercase;
+  margin-bottom: 5pt;
 }
 
 aside a {
@@ -211,7 +212,7 @@ main h2 > i {
 }
 
 .details h3 {
-  font-size: 9pt;
+  font-size: 10pt;
 }
 
 .main-block:not(.concise) .details .description {

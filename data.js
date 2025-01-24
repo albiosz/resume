@@ -58,16 +58,16 @@ const data = {
       end: "08.2024",
       responsibilities:
         `<ul>
-          <li>Developing a <u>full-stack</u> web application from scratch, involved in <u>project architecture</u> decision making processes </li>
-          <li>Gathered requirements from decision makers and created a structured documentation of these decisions </li>
-          <li>Implemented <u>50+ REST</u> endpoints using Repository, Service, Controller Separation of Concerns design with <u>80%+ test coverage</u> - <u>Go</u> </li>
-          <li>Designed (ERP Diagram) and implemented a relational database with <u>30+ tables</u> - <u>PostgreSQL</u> </li>
-          <li>Wrote <u>integration tests</u>, thereby ensuring compliance with business requirements </li>
-          <li>Reduced code duplication by creating a separate Go module for code used by all projects in the company - <u>Go Modules</u> </li>
-          <li>Prepared Docker containers for development, test and production environments - Docker, Linux </li>
-          <li>Suggested and implemented <u>CI</u> action to automatically test code before merging, resulting in <u>significantly fewer bugs</u> in the production code - <u>Github Actions</u> </li> 
-          <li>Implemented API plugin to standardize and simplify HTTP requests to the backend - <u>JavaScript, TypeScript, Vue.js</u> </li> 
-          <li>Set up <u>database migration</u> tool - Liquibase </li>
+          <li>Developing a <b>full-stack</b> web application from scratch, involved in <b>project architecture</b> decision making processes. </li>
+          <li>Gathered <b>requirements</b> from decision makers and created a structured documentation of these decisions. </li>
+          <li>Implemented <b>50+ REST</b> endpoints using Repository, Service, Controller Separation of Concerns design with <b>80%+ test coverage</b> - <b>Go</b> </li>
+          <li>Designed (<b>ERP Diagram</b>) and implemented a relational database with <b>30+ tables</b> - <b>PostgreSQL</b> </li>
+          <li>Wrote <b>integration tests</b>, thereby ensuring compliance with business requirements. </li>
+          <li>Reduced code duplication by creating a separate <b>Go module</b> for code used by all projects in the company</li>
+          <li>Prepared Docker containers for development, test and production environments - <b>Docker</b>, <b>Linux</b> </li>
+          <li>Suggested and implemented <b>CI</b> action to automatically test code before merging, resulting in significantly fewer bugs in the production code - <b>Github Actions</b> </li> 
+          <li>Implemented API plugin to standardize and simplify HTTP requests to the backend - <b>JavaScript</b>, <b>TypeScript</b>, <b>Vue.js</b> </li> 
+          <li>Set up <b>database migration</b> tool - Liquibase </li>
         </ul>`
     },
     {
