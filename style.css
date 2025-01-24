@@ -83,6 +83,9 @@ main li {
   font-size: 9pt;
   text-align: justify;
 }
+.subtitle b {
+  font-weight: bold;
+}
 
 /**** minor tweaks on the icon fonts ****/
 main h2 > .fa-graduation-cap {

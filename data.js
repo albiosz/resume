@@ -3,7 +3,7 @@ const data = {
     name: "Albert",
     surname: "Szulc",
     birthday: "17.02.1999",
-    introduction: "I am a software developer focused on developing clean, well-structured and extensible software. With a solid knowledge of server-side web development, I am enthusiastic about applying and advancing these skills in my future projects, while adhering to modern standards and best practices.",
+    introduction: "I am a software developer focused on developing <b>clean</b>, <b>well-structured</b> and <b>extensible software</b>. Believing in the power of <b>collaboration</b>, I excel in team environments that leverage collective expertise. With a solid knowledge of <b>server-side</b> web development, I am enthusiastic about applying and advancing these skills in my future projects, while adhering to <b>modern standards</b> and <b>best practices</b>.",
   },
 
   sidebar: {
