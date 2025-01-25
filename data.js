@@ -3,7 +3,7 @@ const data = {
     name: "Albert",
     surname: "Szulc",
     birthday: "17.02.1999",
-    introduction: "I am a software developer focused on developing <b>clean</b>, <b>well-structured</b> and <b>extensible software</b>. Believing in the power of <b>collaboration</b>, I excel in team environments that leverage collective expertise. With a solid knowledge of <b>server-side</b> web development, I am enthusiastic about applying and advancing these skills in my future projects, while adhering to <b>modern standards</b> and <b>best practices</b>.",
+    introduction: "Software developer focused on developing <b>clean</b>, <b>well-structured</b> and <b>extensible software</b>. Believing in the power of <b>collaboration</b>, I excel in team environments that leverage collective expertise. With a solid knowledge of <b>server-side</b> web development, I am enthusiastic about applying and advancing these skills in my future projects, while adhering to <b>modern standards</b> and <b>best practices</b>.",
   },
 
   sidebar: {
@@ -30,7 +30,7 @@ const data = {
   skills: [
     {
       title: "backend",
-      skills: ["Go", "Java"],
+      skills: ["Go", "Java", "Spring"],
     }, {
       title: "database",
       skills: ["SQL", "Relational Databases", "Data Modeling", "PostgreSQL"],
@@ -38,11 +38,14 @@ const data = {
       title: "operating systems",
       skills: ["Linux"],
     }, {
+      title: "Containerization",
+      skills: ["Docker", "Kubernetes"]
+    }, {
       title: "testing",
       skills: ["Unit", "Integration"],
     }, {
       title: "miscellaneous",
-      skills: ["Git", "Docker", "REST"],
+      skills: ["Git", "REST"],
     }, {
       title: "frontend", 
       skills: ["HTML", "CSS", "JavaScript", "TypeScript", "Vue.js", "Bootstrap"],
@@ -58,15 +61,17 @@ const data = {
       end: "08.2024",
       responsibilities:
         `<ul>
-          <li>Developing a <b>full-stack</b> web application from scratch, involved in <b>project architecture</b> decision making processes. </li>
-          <li>Gathered <b>requirements</b> from decision makers and created a structured documentation of these decisions. </li>
-          <li>Implemented <b>50+ REST</b> endpoints using Repository, Service, Controller Separation of Concerns design with <b>80%+ test coverage</b> - <b>Go</b> </li>
+          <li>Played a key role in deciding the architecture of a <b>full-stack</b> web application with a three-tier structure, resulting in an easily maintainable and extensible system. </li>
+          <li>Collaborated with stakeholders to gather requirements; initiated <b>structured documentation</b> of those decisions, ensuring clear communication and better teamwork. </li>
+          <li>Developed <b>50+ REST</b> endpoints in <b>Go</b> using Repository, Service, and Controller Separation of Concerns, ensuring easily modifiable and maintainable code. </li>
+          <li>Created <b>unit</b> and <b>integration tests</b> concurrently with production code for backend services, achieving <b>80%+ test coverage</b> and significantly improving system reliability. </li>
           <li>Designed (<b>ERP Diagram</b>) and implemented a relational database with <b>30+ tables</b> - <b>PostgreSQL</b> </li>
-          <li>Wrote <b>integration tests</b>, thereby ensuring compliance with business requirements. </li>
-          <li>Reduced code duplication by creating a separate <b>Go module</b> for code used by all projects in the company</li>
-          <li>Prepared Docker containers for development, test and production environments - <b>Docker</b>, <b>Linux</b> </li>
-          <li>Suggested and implemented <b>CI</b> action to automatically test code before merging, resulting in significantly fewer bugs in the production code - <b>Github Actions</b> </li> 
-          <li>Implemented API plugin to standardize and simplify HTTP requests to the backend - <b>JavaScript</b>, <b>TypeScript</b>, <b>Vue.js</b> </li> 
+          <li>Reduced code duplication by creating a separate <b>Go module</b> for code used by all projects in the company. </li>
+          <li>Prepared <b>Docker</b> containers for development, test and production environments, creating a unified setup across all developers and reducing environment configuration issues. </li>
+          <li>Managed <b>Git</b> repositories and served as the go-to person for resolving complex merge conflicts, ensuring smooth collaboration. </li>
+          <li>Introduced stacked diffs, allowing developers to work on changes independently of PR merges into the main branch, resulting in <b>faster development cycles</b>.</li>
+          <li>Suggested and implemented <b>CI pipeline</b> to automate execution of tests before merging, resulting in significantly fewer bugs in the production code - <b>Github Actions</b> </li> 
+          <li>Implemented API plugin to standardize and simplify HTTP requests to the backend - <b>TypeScript</b>, <b>Vue.js</b> </li> 
           <li>Set up <b>database migration</b> tool - Liquibase </li>
         </ul>`
     },
@@ -78,8 +83,8 @@ const data = {
       end: "09.2021",
       responsibilities:
         `<ul>
-          <li>Deepened my knowledge of Git by working on a large scale project </li>
-          <li>Completed minor tasks in an agile team under experienced developers' supervision</li>
+          <li>Enhanced <b>Git</b> proficiency by working on a large scale project. </li>
+          <li>Completed minor tasks in an agile team under experienced developers' supervision. </li>
         </ul>
         `
     },
