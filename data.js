@@ -110,9 +110,14 @@ const data = {
       description:
         `
           <p> <b>Bachelor Thesis</b>: Developed a front-end web application using React that allows users to track the real-time position of their vehicles on an interactive map. </p>
-          <p> <b>Most relevant courses:</b> Algorithms and Data Structures, Operating Systems, Object Oriented Programming, Database Systems, Computer Networks, Software Engineering, Advanced Internet Applications. </p>
+          <p> <b>Most relevant courses:</b> Algorithms and Data Structures, Operating Systems, Object Oriented Programming, Database Systems, Computer Networks, Software Engineering, Advanced Internet Applications, Cloud Computing, Cryptography. </p>
         `
     },
+  ],
+
+  sideProjects: [
+    '<a href="https://github.com/albiosz/honeycombs" target="_blank"> honeycombs </a> (<b>REST, Java, Spring, Docker</b>, JWT, JUnit)',
+    '<a href="https://github.com/albiosz/go-rest-reference" target="_blank">go-rest </a> (<b>REST, Go</b>)',
   ],
 
   awards: [
@@ -121,8 +126,7 @@ const data = {
   
   studentExchange: [
     "<b> Bielefeld University </b>",
-    "03.2021 - 02.2022",
-    "<b>Most relevant courses:</b> Cryptography, Cloud Computing, Data Mining. </p>"
+    "03.2021 - 02.2022"
   ]
 }
 
