@@ -61,7 +61,7 @@ const data = {
       end: "08.2024",
       responsibilities:
         `<ul>
-          <li>Played a key role in deciding the architecture of a <b>full-stack</b> web application with a three-tier structure, resulting in an easily maintainable and extensible system. </li>
+          <li>Played a key role in deciding the architecture of a <b>full-stack</b> web application with a three-tier architecture, resulting in an easily maintainable and extensible system. </li>
           <li>Collaborated with stakeholders to gather requirements; initiated <b>structured documentation</b> of those decisions, ensuring clear communication and better teamwork. </li>
           <li>Developed <b>50+ REST</b> endpoints in <b>Go</b> using controller-service-repository pattern, ensuring easily modifiable and maintainable code. </li>
           <li>Created <b>unit</b> and <b>integration tests</b> concurrently with production code for backend services, achieving <b>80%+ test coverage</b> and significantly improving system reliability. </li>
@@ -98,7 +98,7 @@ const data = {
       end:"Present",
       description:
         `
-        <p> <b>Program Focus: </b> Gaining comprehensive expertise in all critical stages of the data development process, from project planning to maintenance.
+        <p> <b>Program Focus: </b> Gaining comprehensive expertise in all critical stages of the software development process, from project planning to maintenance.
         <p> <b>Most relevant courses (taken up to now):</b> Advanced Software Development, Software Architectures, Cloud Computing, Requirements Engineering
         `
     },
